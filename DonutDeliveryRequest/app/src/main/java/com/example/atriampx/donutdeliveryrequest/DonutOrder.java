@@ -143,7 +143,7 @@ public class DonutOrder extends AppCompatActivity {
         /*
             Checkout and send information to email app
          */
-        String text = "Hey Jordan,\nI'm looking to avoid the spam filter by adding some text that looks human.";
+        String text = "Hey,\nI'm looking to avoid the spam filter by adding some text that looks human.";
         // check if we are ordering regular glazed
         TextView regGlazed = (TextView) findViewById(R.id.qty_reg_glazed);
         int qtyRegGlazed = Integer.parseInt(regGlazed.getText().toString());

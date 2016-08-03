@@ -12,7 +12,7 @@
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
-        tools:context="com.example.android.justjava.MainActivity">
+        tools:context="com.example.android.justjava.DonutOrder">
 
         <RelativeLayout
             android:layout_width="wrap_content"
