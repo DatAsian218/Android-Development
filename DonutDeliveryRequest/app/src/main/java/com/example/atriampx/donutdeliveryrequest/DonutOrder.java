@@ -174,9 +174,10 @@ public class DonutOrder extends AppCompatActivity {
         intent.setData(Uri.parse("mailto:")); // require only email apps to handle this
 //        intent.putExtra(Intent.EXTRA_EMAIL, "")
         // localized with xliff; cool stuff
+        // below is a spam email, replace with new email later
         String[] addresses = {"megumi.takane@gmail.com"};
         intent.putExtra(Intent.EXTRA_EMAIL, addresses);
-        intent.putExtra(Intent.EXTRA_SUBJECT, "Order for donuts ty jordan");
+        intent.putExtra(Intent.EXTRA_SUBJECT, "Order for donuts ty buddy");
         intent.putExtra(Intent.EXTRA_TEXT, text);
         if (intent.resolveActivity(getPackageManager()) != null) {
             startActivity(intent);
